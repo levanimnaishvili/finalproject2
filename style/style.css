@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.grid{
+    width: 400px;
+    height: 100vh;
+    position: relative;
+    font-size: 200px;
+    text-align: center;
+    overflow: hidden;
+}
+.grid img{
+    position: relative;
+    right: -8px;
+}
+
+.doodler{
+    width: 60px;
+    height: 85px;
+    position: absolute;
+    overflow: hidden;
+}
+.doodler img{
+    width: 80px;
+    height: 85px;
+    position: relative;
+    overflow: hidden;
+    top: -100px;
+    left: -10px;
+}
+.platform{
+    width: 85px;
+    height: 15px;
+    background-color: green;
+    position: absolute;
+    border-radius: 50px;
+}
+.restartAndScore{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 400px;
+}
+.restart{
+    width: 100px;
+    height: 30px;
+    background-color: #08fadaff;
+    right: 500%;
+    bottom: 300px;
+}
+.showScore{
+    width: 400px;
+    height: 400px;
+    align-items: center;
+    font-size: 200px;
+    text-align: center;
+}
